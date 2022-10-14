@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Normal */
+
+body {
+    color: whitesmoke;
+    background-color: black;
+}
+
+/* ID */
+
+#topoLampada {
+    margin: 10px;
+}
+
+#corpoLampada {
+    padding: 10px;
+}
+
+#topoLampada, #corpoLampada {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#divButton {
+    margin-top: 50px;
+}
+
+/* Classe */
+
+.buttonLampada {
+    width: 100px;
+    height: 34px;
+    margin: 0px 4px;
+    font-size: 20px;
+    border-radius: 4px;
+}
